@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>EXPRESS APP</h1>
+    <main>
+
+       <div class="adm-logs">
+                                <h2>ADMIN VIEWS</h2>
+                                <table>
+                                    <thead>
+                                        <th>ID</th>
+                                        <th>Name</th>
+                                        <th>Image</th>
+                                        <th>Price</th>
+                                        <th>Date Added</th>
+                                        <th>P.Description</th>
+                                        <th>P.Spec</th>
+                                        <th>Delete</th>
+                                        <th>Edit</th>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+                                    
+                                <div>
+           </div>
+
+            <div>
+                 <button onclick="addProduct()">Add product</button>
+            </div>
+       </div>
+
+        <!-- Add product section -->
+<div class="user-logs" id="addpro">
+    <h2>Add product</h2>
+    <div>
+        <label for="add-name-input">Name</label> <!-- Corrected ID -->
+        <input type="text" name="" id="add-name-input">
+    </div><br>
+    <div>
+        <label for="add-image-input">Image</label> <!-- Corrected ID -->
+        <input type="text" name="" id="add-image-input">
+    </div><br>
+    <div>
+        <label for="add-spec-input">Spec</label> <!-- Corrected ID -->
+        <input type="text" name="" id="add-spec-input">
+    </div>
+    <div><br>
+        <label for="add-description-input">Pro. Description</label> <!-- Corrected ID -->
+        <input type="text" name="" id="add-description-input">
+    </div>
+    <div><br>
+        <button id="add-product-btn">Add</button>
+    </div>
+    <br>
+    <input name="" id="search-input" placeholder="Search by name here"><br>
+    <button id="search-btn">Search</button>
+</div>
+
+<!-- Update product section -->
+<section  id="update-row"> 
+    <div class="sec">
+        <label for="update-name-input">Name</label> 
+        <input type="text" id="update-name-input">
+    </div>
+    <div class="sec">
+        <label for="update-image-input">Image</label>
+        <input type="url" id="update-image-input">
+    </div>
+    <div class="sec">
+        <label for="update-price-input">Price</label>
+        <input type="text" id="update-price-input">
+    </div>
+    <div class="sec">
+        <label for="update-descrip-input">Product Description</label>
+        <textarea id="update-descrip-input" cols="20" rows="20"></textarea>
+    </div>
+    <div class="sec">
+        <label for="update-spec-input">Product Specifications</label>
+        <textarea id="update-spec-input" cols="20" rows="20"></textarea>
+    </div>
+    <button id="update-row-btn">Update</button>
+</section>
+
+       
+                
+    </main>
+    
+</body>
+<script src="index.js"></script>
+<script src="add.js"></script>
+</html>

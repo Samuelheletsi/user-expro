@@ -1,0 +1,64 @@
+main{
+    /* width: 62%; */
+    display: flex;
+    flex-wrap: wrap;
+    margin:50px auto;
+    text-align: center;
+}
+table, th, td{
+    border-collapse: collapse;
+    border: 2px double black;
+    
+    
+}
+h1{
+    text-align: center;
+}
+th,td{
+    padding: 5px;
+}
+table{
+    width: 70%;
+    margin:50px auto;
+}
+.user-logs{
+    width: 60%;
+    height: 40%;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: antiquewhite;
+    box-shadow: 0rem 1rem 1rem black;
+    margin: 4rem;
+    visibility: hidden;
+    display:grid;
+    grid-column: auto;
+
+}
+.adm-logs{
+    width: 90%;
+    height: 200px auto;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: aqua;
+    box-shadow: 0rem 1rem 1rem black;
+    border-radius: 7px;
+    margin: 4rem;
+    
+}
+section{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+    border: 2px solid black;
+    padding: 3%;
+    width: 30%;
+    visibility: hidden;
+    
+}
+section .sec{
+    margin: 5%;
+}
+section .sec textarea{
+    width: 100%;
+}
